@@ -1,0 +1,249 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+.uk-grid {
+    margin-left: 0 !important;
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+.input-text {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-text:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(211, 47, 47, 0.5);
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+#login-btn  {
+    width: 100%;
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    /* position: absolute;
+    height:33px;
+    background: #4CAF50;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 600;
+    right:5px;
+    top:6px;
+    border:12px;
+    padding: 0 20px;
+    border-radius: 5px; */
+}
+
+button:hover {
+    background: #4CAF50;
+}
+
+.forgot-password a, 
+.register-box a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.forgot-password a:hover,
+.register-box a:hover {
+    text-decoration: underline;
+}
+
+.register-box {
+    margin-top: 15px;
+    font-size: 14px;
+}
+/* RESGITER-START */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color:#f8f8f8;
+    padding: 20px;
+}
+/* .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background: ;
+   
+} */
+.register-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    
+}
+
+.form-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input-text:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
+
+.btn-primary {
+    width: 100%;
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #4CAF50;
+}
+/* RESGITER - END */
+/* PROFILE - START */
+/* Container chính */
+.profile-container {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+/* Bố cục chung */
+.uk-container {
+    max-width: 1200px;
+}
+
+/* Sidebar */
+.uk-width-large-1-2 {
+    
+    margin: 0 auto;
+    
+}
+
+/* Phần hồ sơ */
+.panel-profile {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề hồ sơ */
+.panel-head h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.panel-head .description {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Form */
+.profile-form .form-row {
+    margin-bottom: 15px;
+}
+
+.uk-form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Nút lưu thông tin */
+button[name="send"] {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[name="send"]:hover {
+    background: #4CAF50;
+}
+.profile-form{
+    width: 500px;
+    margin: 0 auto;
+}
+/* PROFILE - END */
+#reset-pass{
+    width: 100%;
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
