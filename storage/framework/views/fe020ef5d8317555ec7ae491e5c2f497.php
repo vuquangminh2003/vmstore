@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\vphome\resources\views/backend/product/product/component/variant.blade.php ENDPATH**/ ?>
