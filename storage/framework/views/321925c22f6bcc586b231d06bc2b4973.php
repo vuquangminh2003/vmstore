@@ -1,0 +1,1 @@
+<?php /**PATH C:\xampp\htdocs\vphome\resources\views/backend/dashboard/component/seo.blade.php ENDPATH**/ ?>
